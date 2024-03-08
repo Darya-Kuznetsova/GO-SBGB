@@ -11,8 +11,6 @@ func main() {
 func bubbleSort(array []int) []int {
 	for i := 0; i <= len(array); i++ {
 		for j := 0; j < len(array)-1; j++ {
-			/* len(array) - 1 т.к. array[len(array) - 2] сравнивается с array[len(array) - 1],
-			а array[len(array) - 1] уже ни с чем не сравнивается */
 			if array[j] > array[j+1] {
 				memory := array[j]
 				array[j] = array[j+1]

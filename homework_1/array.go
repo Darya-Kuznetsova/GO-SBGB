@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	arr1 := [5]int{7, 5, 9, 0, 3}
-	arr2 := [4]int{8, 9, 12, 3}
+	arr1 := [4]int{2, 3, 4, 5}
+	arr2 := [5]int{6, 7, 8, 9, 10}
 	arrNew := newArray(arr1[:], arr2[:])
 	fmt.Println(arrNew)
 }
